@@ -1,7 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;</TargetFrameworks>
+    <Copyright>Fuzhou Moon Shadow Information Technology Co., Ltd.</Copyright>
+    <Company>Fuzhou Moon Shadow Information Technology Co., Ltd.</Company>
+    <Authors>Fuzhou Moon Shadow Information Technology Co., Ltd.</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0.0</Version>
+    <PackageIconUrl>https://www.fzyyxx.com/img/logo-256.png</PackageIconUrl>
+    <PackageProjectUrl>https://www.fzyyxx.com/</PackageProjectUrl>
+    <Description>
+      阿里云 SLS 日志服务模块 支持 NetCore 2.0
+    </Description>
+    <PackageTags>AliyunSLSCore</PackageTags>
+    <PackageId>AliyunSLSCore</PackageId>
+    <Product>AliyunSLSCore</Product>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,5 +31,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
-
 </Project>
